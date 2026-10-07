@@ -31,20 +31,59 @@ footer{max-width:1250px;margin:auto;padding:0 20px 35px;color:var(--muted);font-
 <div id="app">
 <header><div class="nav"><div class="brand">🍎 <span>Blox</span> Fruits Wiki</div><nav>
 <a href="#inicio">Inicio</a><a href="#frutas">Frutas</a><a href="#progresion">Progresión</a><a href="#combate">Combate</a><a href="#mundo">Mundo</a><a href="#bosses">Bosses</a><a href="#guias">Guías</a><a href="#faq">FAQ</a>
+<a href="#requisitos">Requisitos</a><a href="#frutas-precios">Precios</a><a href="#haki">Haki</a><a href="#estilos">Estilos</a><a href="#secretos">Secretos</a>
 </nav></div></header>
 <main id="inicio">
 <div class="hero"><div class="heroCard"><div class="eyebrow">GUÍA INTERACTIVA • ROBLOX</div><h1>Domina <span>Blox Fruits</span></h1><p>Centro de información para aprender sistemas, frutas, progresión, mares, builds, combate, jefes, razas, accesorios, códigos y secretos. Usa el buscador para encontrar rápidamente cualquier tema.</p><div class="search"><input id="search" placeholder="Buscar fruta, isla, boss, estilo, raza..." aria-label="Buscar"><button class="btn" onclick="doSearch()">Buscar</button></div></div>
-<div class="heroCard stats"><div class="stat"><b>3</b><small>Mares principales</small></div><div class="stat"><b>🍎</b><small>Frutas y habilidades</small></div><div class="stat"><b>⚔️</b><small>Combate y builds</small></div><div class="stat"><b>🌊</b><small>Exploración y eventos</small></div></div></div>
+<div class="heroCard stats"><div class="stat"><b>3000</b><small>Nivel máximo actual</small></div><div class="stat"><b>🍎</b><small>Frutas y habilidades</small></div><div class="stat"><b>⚔️</b><small>Combate y builds</small></div><div class="stat"><b>🌊</b><small>Exploración y eventos</small></div></div></div>
 <section><div class="sectionHead"><div><h2>Accesos rápidos</h2><p>Las herramientas más útiles para empezar.</p></div></div><div class="grid">
 <div class="card"><span class="tag">NUEVO JUGADOR</span><h3>🚀 Ruta de progresión</h3><p>Aprende qué hacer desde el primer nivel y cómo avanzar por los tres mares.</p></div>
 <div class="card"><span class="tag">FRUTAS</span><h3>🍇 Elige tu fruta</h3><p>Compara estilos de juego: farmeo, movilidad, PvP y facilidad de uso.</p></div>
 <div class="card"><span class="tag">BUILD</span><h3>🧩 Crea tu build</h3><p>Combina fruta, estilo de combate, accesorios y raza según tu objetivo.</p></div>
 </div></section>
 <section id="frutas"><div class="sectionHead"><div><h2>🍎 Frutas</h2><p>Catálogo orientativo por tipo y función.</p></div></div><div class="tabs" id="fruitTabs"></div><div id="fruitGrid" class="grid"></div></section>
+<section id="frutas-precios"><div class="sectionHead"><div><h2>💰 Precios, stock y spawn de frutas</h2><p>Precio del Dealer en Beli. Los valores de tradeo son diferentes.</p></div></div><table class="data"><thead><tr><th>Fruta</th><th>Precio Beli</th><th>Robux</th><th>Rareza</th></tr></thead><tbody>
+<tr><td>Rocket</td><td>5,000</td><td>50</td><td>Común</td></tr><tr><td>Spin</td><td>7,500</td><td>75</td><td>Común</td></tr><tr><td>Blade</td><td>30,000</td><td>100</td><td>Común</td></tr><tr><td>Spring</td><td>60,000</td><td>180</td><td>Común</td></tr><tr><td>Bomb</td><td>80,000</td><td>220</td><td>Común</td></tr><tr><td>Smoke</td><td>100,000</td><td>250</td><td>Común</td></tr><tr><td>Spike</td><td>180,000</td><td>380</td><td>Común</td></tr><tr><td>Flame</td><td>250,000</td><td>550</td><td>Poco común</td></tr><tr><td>Ice</td><td>350,000</td><td>750</td><td>Poco común</td></tr><tr><td>Sand</td><td>420,000</td><td>850</td><td>Poco común</td></tr><tr><td>Dark</td><td>500,000</td><td>950</td><td>Poco común</td></tr><tr><td>Eagle</td><td>550,000</td><td>975</td><td>Poco común</td></tr><tr><td>Diamond</td><td>600,000</td><td>1,000</td><td>Poco común</td></tr><tr><td>Light</td><td>650,000</td><td>1,100</td><td>Rara</td></tr><tr><td>Rubber</td><td>750,000</td><td>1,200</td><td>Rara</td></tr><tr><td>Ghost</td><td>940,000</td><td>1,275</td><td>Rara</td></tr><tr><td>Magma</td><td>960,000</td><td>1,300</td><td>Rara</td></tr><tr><td>Quake</td><td>1,000,000</td><td>1,500</td><td>Legendaria</td></tr><tr><td>Buddha</td><td>1,200,000</td><td>1,650</td><td>Legendaria</td></tr><tr><td>Love</td><td>1,300,000</td><td>1,700</td><td>Legendaria</td></tr><tr><td>Creation</td><td>1,400,000</td><td>1,750</td><td>Legendaria</td></tr><tr><td>Spider</td><td>1,500,000</td><td>1,800</td><td>Legendaria</td></tr><tr><td>Sound</td><td>1,700,000</td><td>1,900</td><td>Legendaria</td></tr><tr><td>Phoenix</td><td>1,800,000</td><td>2,000</td><td>Legendaria</td></tr><tr><td>Portal</td><td>1,900,000</td><td>2,000</td><td>Legendaria</td></tr><tr><td>Rumble / Lightning</td><td>2,100,000</td><td>2,100</td><td>Legendaria</td></tr><tr><td>Pain</td><td>2,300,000</td><td>2,200</td><td>Legendaria</td></tr><tr><td>Blizzard</td><td>2,400,000</td><td>2,250</td><td>Legendaria</td></tr><tr><td>Gravity</td><td>2,500,000</td><td>2,300</td><td>Mítica</td></tr><tr><td>Mammoth</td><td>2,700,000</td><td>2,350</td><td>Mítica</td></tr><tr><td>T-Rex</td><td>2,700,000</td><td>2,350</td><td>Mítica</td></tr><tr><td>Dough</td><td>2,800,000</td><td>2,400</td><td>Mítica</td></tr><tr><td>Shadow</td><td>2,900,000</td><td>2,425</td><td>Mítica</td></tr><tr><td>Venom</td><td>3,000,000</td><td>2,450</td><td>Mítica</td></tr><tr><td>Control</td><td>Desconocido / no confirmado</td><td>Desconocido / no confirmado</td><td>Mítica</td></tr><tr><td>Gas</td><td>3,200,000</td><td>2,500</td><td>Mítica</td></tr><tr><td>Spirit</td><td>3,400,000</td><td>2,550</td><td>Mítica</td></tr><tr><td>Tiger</td><td>5,000,000</td><td>3,000</td><td>Mítica</td></tr><tr><td>Yeti</td><td>5,000,000</td><td>3,000</td><td>Mítica</td></tr><tr><td>Magnet</td><td>6,000,000</td><td>3,500</td><td>Mítica</td></tr><tr><td>Kitsune</td><td>8,000,000</td><td>4,000</td><td>Mítica</td></tr><tr><td>Dragon</td><td>15,000,000</td><td>5,000</td><td>Mítica</td></tr>
+</tbody></table><div class="notice" style="margin-top:15px">🍎 <b>Spawn físico:</b> una fruta aparece en el mapa aproximadamente cada 60 minutos y desaparece después de 20 minutos si nadie la recoge. En fines de semana, algunas fuentes actuales reportan un intervalo de 45 minutos. El Dealer normal cambia su stock cada 4 horas y el stock es global. <br><br>💡 <b>Importante:</b> el precio de arriba es el precio de compra del Dealer, no el valor de intercambio entre jugadores. El precio de Control no está confirmado en esta guía porque no existe un precio de stock confirmado tras su rework.</div></section>
+<section id="haki"><div class="sectionHead"><div><h2>👁️ Haki / Instinct y Armamento</h2><p>Requisitos, costes y progreso hasta el máximo.</p></div></div><div class="grid">
+<div class="card"><span class="tag">OBSERVACIÓN V1</span><h3>👁️ Instinct</h3><p><b>Coste:</b> 750,000 Beli. Para V2 debes llevar Instinct V1 al máximo de 5,000 EXP. Ese progreso corresponde a las esquivas de Instinct.</p></div>
+<div class="card"><span class="tag">OBSERVACIÓN V2</span><h3>🔴 Instinct V2</h3><p><b>Requisitos:</b> nivel 1,800+, 5,000 EXP de Instinct V1, completar la misión de Citizen y obtener el Musketeer Hat, además de 5,000,000 Beli. Luego habla con Hungry Man en Floating Turtle y entrega la comida preparada. </p></div>
+<div class="card"><span class="tag">ARMAMENTO</span><h3>⚫ Aura / Buso</h3><p><b>Coste inicial:</b> 25,000 Beli con el Ability Teacher. Se sube usando ataques no basados en fruta y recibiendo golpes mientras está activo.</p></div>
+<div class="card"><span class="tag">MÁXIMO</span><h3>🛡️ Armamento Full Body</h3><p><b>Stage 5:</b> 60,000 EXP. Etapas: 4,000 → 12,000 → 24,000 → 48,000 → 60,000 EXP. Al Stage 5 el Aura cubre todo el cuerpo y aplica aproximadamente 30% de reducción de daño. </p></div>
+</div><table class="data" style="margin-top:15px"><thead><tr><th>Haki</th><th>Nivel / EXP</th><th>Resultado</th></tr></thead><tbody>
+<tr><td>Instinct</td><td>Máximo V1: 5,000 EXP</td><td>Máximo de esquivas y requisito para V2.</td></tr><tr><td>Instinct V2</td><td>Después de completar la quest</td><td>Mejor percepción y recarga de esquivas más rápida.</td></tr><tr><td>Armamento Stage 1</td><td>4,000 EXP</td><td>Brazos/piernas completos.</td></tr><tr><td>Armamento Stage 2</td><td>12,000 EXP</td><td>Brazos/piernas + torso parcial.</td></tr><tr><td>Armamento Stage 3</td><td>24,000 EXP</td><td>Brazos/piernas + torso + cabeza.</td></tr><tr><td>Armamento Stage 4</td><td>48,000 EXP</td><td>Cobertura casi completa.</td></tr><tr><td>Armamento Stage 5</td><td>60,000 EXP</td><td>Full Body.</td></tr>
+</tbody></table></section>
 <section id="progresion"><div class="sectionHead"><div><h2>🧭 Progresión</h2><p>Una ruta general para no perderte.</p></div></div><div class="timeline">
-<div class="sea"><strong>🌴 Primer Mar</strong><div class="lvl">Inicio → mitad del progreso</div><ul><li>Aprende el movimiento y el combate.</li><li>Consigue una fruta cómoda para farmear.</li><li>Desbloquea estilos y equipo progresivamente.</li></ul></div>
-<div class="sea"><strong>🏝️ Segundo Mar</strong><div class="lvl">Contenido intermedio</div><ul><li>Optimiza tu build.</li><li>Participa en raids y actividades especiales.</li><li>Empieza a buscar objetos raros.</li></ul></div>
-<div class="sea"><strong>🌊 Tercer Mar</strong><div class="lvl">Contenido avanzado</div><ul><li>Completa contenido de alto nivel.</li><li>Persigue mejoras y coleccionables.</li><li>Practica PvP y builds especializadas.</li></ul></div>
+<div class="sea"><strong>🌴 Primer Mar</strong><div class="lvl">Nivel 1 → 700</div><ul><li>Aprende el movimiento y el combate.</li><li>Completa quests y desbloquea nuevas islas.</li><li>Alcanza nivel 700 y prepara el acceso al Segundo Mar.</li></ul></div>
+<div class="sea"><strong>🏝️ Segundo Mar</strong><div class="lvl">Nivel 700 → 1500</div><ul><li>Optimiza tu build y consigue equipo.</li><li>Participa en raids y actividades especiales.</li><li>Alcanza nivel 1500 para avanzar al Tercer Mar.</li></ul></div>
+<div class="sea"><strong>🌊 Tercer Mar</strong><div class="lvl">Nivel 1500 → 3000</div><ul><li>Completa contenido avanzado.</li><li>Completa Island Secrets para desbloquear los niveles secretos adicionales.</li><li>Practica PvP y builds especializadas.</li></ul></div>
+</div></section>
+<section id="requisitos"><div class="sectionHead"><div><h2>🔐 Requisitos y niveles</h2><p>Checklist de requisitos importantes para desbloquear contenido.</p></div></div><table class="data"><thead><tr><th>Contenido</th><th>Requisito</th><th>Qué desbloquea</th></tr></thead><tbody>
+<tr><td>Segundo Mar</td><td>Nivel 700 + misión de acceso correspondiente</td><td>Nuevas islas, NPCs, armas, frutas y sistemas.</td></tr>
+<tr><td>Tercer Mar</td><td>Nivel 1500 + misión de acceso correspondiente</td><td>Contenido avanzado, nuevas islas, bosses y objetos.</td></tr>
+<tr><td>Haki de Observación</td><td>Requisitos de nivel, dinero y ubicación del entrenador</td><td>Permite esquivar determinados ataques y mejorar la percepción.</td></tr>
+<tr><td>Haki de Armamento</td><td>Obtenerlo con el entrenador correspondiente</td><td>Mejora los ataques y permite interactuar mejor con ciertos enemigos.</td></tr>
+<tr><td>Instinct V2</td><td>Progreso avanzado y requisitos específicos del Tercer Mar</td><td>Versión mejorada del sistema de Instinct.</td></tr>
+<tr><td>Razas V2</td><td>Raza compatible + requisitos y quest correspondiente</td><td>Mejora las habilidades raciales.</td></tr>
+<tr><td>Razas V3</td><td>Raza V2 + nivel/progreso y quest específica</td><td>Habilidad racial avanzada.</td></tr>
+<tr><td>Razas V4</td><td>Progreso de raza + requisitos de acceso al sistema avanzado</td><td>Transformación y habilidades avanzadas de la raza.</td></tr>
+<tr><td>Awakening / Despertar</td><td>Participar en raids y reunir los recursos necesarios</td><td>Nuevos movimientos para determinadas frutas.</td></tr>
+<tr><td>Godhuman</td><td>Maestrías, dinero y materiales de estilos previos</td><td>Estilo de combate avanzado.</td></tr>
+<tr><td>Superhuman</td><td>Maestrías y compra de estilos requeridos</td><td>Estilo de combate avanzado y requisito para otras progresiones.</td></tr>
+<tr><td>Death Step</td><td>Maestría y requisitos del estilo Dark Step</td><td>Versión avanzada del estilo.</td></tr>
+<tr><td>Sharkman Karate</td><td>Maestría y requisitos de Water Kung Fu</td><td>Estilo de combate avanzado.</td></tr>
+<tr><td>Dragon Talon</td><td>Maestría, dinero y requisitos de Dragon Breath</td><td>Estilo de combate avanzado.</td></tr>
+<tr><td>Sanguine Art</td><td>Acceso al contenido avanzado + dinero/materiales y NPC correspondiente</td><td>Estilo de combate avanzado.</td></tr>
+</tbody></table><div class="notice" style="margin-top:15px">⚠️ Los requisitos exactos de algunos sistemas, NPCs, materiales y cantidades pueden cambiar con las actualizaciones. Esta tabla funciona como mapa de progreso y debe contrastarse con los valores actuales del juego.</div></section>
+<section id="secretos"><div class="sectionHead"><div><h2>🕵️ Secretos y contenido oculto</h2><p>Objetivos que normalmente no aparecen como una quest común.</p></div></div><div class="grid">
+<div class="card"><span class="tag">SECRETO</span><h3>👁️ Instinct / Observación</h3><p>Busca al entrenador y revisa los requisitos de nivel, dinero y ubicación antes de intentar desbloquearlo.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>🧬 Evolución de razas</h3><p>Las versiones V2, V3 y V4 requieren diferentes cadenas de progreso. No basta con subir de nivel: también existen quests y condiciones especiales.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>⚔️ Armas legendarias</h3><p>Algunas armas requieren quests, bosses, maestros, materiales o condiciones especiales. Guarda una checklist de cada requisito.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>🌊 Eventos marítimos</h3><p>Explorar el mar puede revelar encuentros y recompensas que no forman parte de la ruta normal de quests.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>🗝️ NPCs ocultos</h3><p>Hay NPCs que solo aparecen en ubicaciones concretas o después de cumplir determinadas condiciones. Revisa cada isla durante la exploración.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>💎 Objetos raros</h3><p>Algunos objetos dependen de bosses, cofres, materiales o probabilidades de obtención. No confundas rareza con nivel requerido.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>🐉 Frutas y transformaciones</h3><p>Varias frutas tienen mecánicas especiales, transformaciones o requisitos de dominio. Comprueba la maestría de cada habilidad.</p></div>
+<div class="card"><span class="tag">SECRETO</span><h3>🏆 Títulos y logros</h3><p>Algunos títulos se consiguen mediante PvP, quests, bosses, eventos o acciones específicas. Completa objetivos que no formen parte del farmeo habitual.</p></div>
 </div></section>
 <section id="combate"><div class="sectionHead"><div><h2>⚔️ Combate & Builds</h2><p>Conceptos para construir un personaje equilibrado.</p></div></div><div class="grid">
 <div class="card"><span class="tag">FARMEAR</span><h3>⚡ Build de movilidad</h3><p>Prioriza una fruta con buen desplazamiento y ataques fáciles de encadenar. Ideal para recorrer zonas y completar misiones.</p></div>
@@ -54,13 +93,89 @@ footer{max-width:1250px;margin:auto;padding:0 20px 35px;color:var(--muted);font-
 <div class="card"><span class="tag">MAESTRÍA</span><h3>📈 Reparto de estadísticas</h3><p>Evita repartir puntos sin objetivo. Una build suele concentrarse en las estadísticas que realmente utiliza.</p></div>
 <div class="card"><span class="tag">EQUIPO</span><h3>🎒 Accesorios</h3><p>Los accesorios pueden complementar una build. Revisa sus bonificaciones antes de decidir qué equipar.</p></div>
 </div></section>
+<section id="estilos"><div class="sectionHead"><div><h2>🥋 Estilos de combate</h2><p>Guía de los estilos de combate disponibles y su progresión.</p></div></div>
+<div class="notice">📌 <b>Dato actualizado:</b> la información actual del juego incluye 13 estilos de combate, contando Combat y Advanced Combat. Los estilos conservan su maestría aunque cambies a otro.</div>
+<table class="data" style="margin-top:15px"><thead><tr><th>Estilo</th><th>Precio</th><th>Maestro / zona</th><th>Requisitos</th></tr></thead><tbody>
+<tr><td>Combat</td><td>Gratis</td><td>Inicial</td><td>Ninguno; se obtiene al comenzar.</td></tr>
+<tr><td>Dark Step</td><td>150,000 Beli</td><td>Dark Step Teacher · Pirate Village</td><td>Ninguno.</td></tr>
+<tr><td>Water Kung Fu</td><td>750,000 Beli</td><td>Water Kung Fu Teacher · Underwater City</td><td>Ninguno.</td></tr>
+<tr><td>Electric</td><td>500,000 Beli</td><td>Mad Scientist · Skylands</td><td>Ninguno.</td></tr>
+<tr><td>Dragon Breath</td><td>1,500 Fragmentos</td><td>Sabi · Second Sea</td><td>Ninguno.</td></tr>
+<tr><td>Superhuman</td><td>3,000,000 Beli</td><td>Martial Arts Master · Snow Mountain</td><td>Maestría 300 en Dark Step, Electric, Water Kung Fu y Dragon Breath.</td></tr>
+<tr><td>Death Step</td><td>2,500,000 Beli + 5,000 Fragmentos</td><td>Phoeyu, the Reformed · Ice Castle</td><td>Dark Step con 400 de maestría y llave de la Biblioteca.</td></tr>
+<tr><td>Sharkman Karate</td><td>2,500,000 Beli + 5,000 Fragmentos</td><td>Sharkman Teacher · Forgotten Island</td><td>Water Kung Fu con 400 de maestría y requisito de acceso del maestro.</td></tr>
+<tr><td>Electric Claw</td><td>3,000,000 Beli + 5,000 Fragmentos</td><td>Previous Hero · Floating Turtle</td><td>Electric con 400 de maestría y completar la prueba correspondiente.</td></tr>
+<tr><td>Dragon Talon</td><td>3,000,000 Beli + 5,000 Fragmentos</td><td>Uzoth · Hydra Island</td><td>Dragon Breath con 400 de maestría y materiales/requisitos del maestro.</td></tr>
+<tr><td>Godhuman</td><td>5,000,000 Beli + 5,000 Fragmentos</td><td>Ancient Monk · Floating Turtle</td><td>Maestría 400 en estilos avanzados y materiales específicos.</td></tr>
+<tr><td>Sanguine Art</td><td>5,000,000 Beli + 5,000 Fragmentos</td><td>Shafi · Tiki Outpost</td><td>Contenido avanzado y materiales específicos del estilo.</td></tr>
+<tr><td>Advanced Combat</td><td>Especial</td><td>Secrets Master · Middle Town</td><td>Completar los secretos de las islas del Primer Mar y seguir la cadena especial de obtención.</td></tr>
+</tbody></table>
+<div class="grid" style="margin-top:15px">
+<div class="card"><span class="tag">PROGRESIÓN</span><h3>📈 Maestría</h3><p>Cada estilo tiene su propia maestría. Cambiar de estilo no elimina la maestría que ya hayas conseguido.</p></div>
+<div class="card"><span class="tag">SEGUNDO MAR</span><h3>🌊 Maestros</h3><p>En el Segundo Mar se concentran varios maestros, incluyendo los de estilos avanzados derivados de los estilos iniciales.</p></div>
+<div class="card"><span class="tag">TERCER MAR</span><h3>👑 ENDGAME</h3><p>Godhuman, Sanguine Art y otros estilos avanzados requieren una progresión mucho mayor, materiales y dinero.</p></div>
+</div></section>
 <section id="mundo"><div class="sectionHead"><div><h2>🗺️ Mundo</h2><p>Qué buscar mientras exploras.</p></div></div><table class="data"><thead><tr><th>Zona</th><th>Objetivo</th><th>Qué revisar</th></tr></thead><tbody>
 <tr><td>Islas de misión</td><td>Subir nivel</td><td>NPCs, quests, cofres y rutas de viaje</td></tr>
 <tr><td>Islas de eventos</td><td>Contenido temporal</td><td>Eventos, recompensas y NPCs especiales</td></tr>
 <tr><td>Zonas de raid</td><td>Despertar/mejorar</td><td>Requisitos, fragmentos y dificultad</td></tr>
 <tr><td>Mar abierto</td><td>Exploración</td><td>Eventos marinos, enemigos y secretos</td></tr>
 </tbody></table></section>
-<section id="bosses"><div class="sectionHead"><div><h2>👹 Bosses</h2><p>Usa esta lista como checklist de objetivos.</p></div></div><div class="grid" id="bossGrid"></div></section>
++<section id="bosses"><div class="sectionHead"><div><h2>👹 Bosses, misiones e invocaciones</h2><p>Niveles, misión necesaria, ubicación y bosses especiales.</p></div></div>
+<div class="notice"><b>📌 Cómo leer la tabla:</b> “Nivel del boss” es el nivel del NPC. “Nivel de misión” indica desde qué nivel puedes aceptar la quest asociada cuando existe. Los Raid Bosses y varios bosses especiales no funcionan como una misión normal. Los requisitos pueden cambiar con actualizaciones.</div>
+<h3 style="margin:22px 0 10px">🌴 Primer Mar — Bosses de misión</h3>
+<table class="data"><thead><tr><th>Boss</th><th>Nivel boss</th><th>Nivel misión</th><th>Ubicación</th><th>Requisito / acceso</th></tr></thead><tbody>
+<tr><td>Gorilla King</td><td>25</td><td>20</td><td>Jungle</td><td>Quest del Gorilla King.</td></tr>
+<tr><td>Chef</td><td>55</td><td>55</td><td>Pirate Village</td><td>Quest del Chef.</td></tr>
+<tr><td>Yeti</td><td>105</td><td>100</td><td>Frozen Village</td><td>Quest del Yeti.</td></tr>
+<tr><td>Mob Leader</td><td>120</td><td>120</td><td>JeanLuc Island</td><td>Boss especial de la isla.</td></tr>
+<tr><td>Vice Admiral</td><td>130</td><td>130</td><td>Marine Fortress</td><td>Quest del Vice Admiral.</td></tr>
+<tr><td>Warden</td><td>220</td><td>220</td><td>Prison</td><td>Quest del Warden.</td></tr>
+<tr><td>Cyborg</td><td>675</td><td>675</td><td>Fountain City</td><td>Quest del Cyborg.</td></tr>
+<tr><td>Ice Admiral</td><td>700</td><td>700</td><td>Frozen Village</td><td>Al nivel 700, habla con Military Detective para obtener el acceso.</td></tr>
+</tbody></table>
+<h3 style="margin:22px 0 10px">🏝️ Segundo Mar — Bosses de misión</h3>
+<table class="data"><thead><tr><th>Boss</th><th>Nivel boss</th><th>Nivel misión</th><th>Ubicación</th><th>Requisito / acceso</th></tr></thead><tbody>
+<tr><td>Diamond</td><td>750</td><td>750</td><td>Kingdom of Rose</td><td>Quest de Diamond.</td></tr>
+<tr><td>Jeremy</td><td>875</td><td>875</td><td>Kingdom of Rose</td><td>Quest de Jeremy.</td></tr>
+<tr><td>Orbitus</td><td>925</td><td>925</td><td>Green Zone</td><td>Quest de Orbitus.</td></tr>
+<tr><td>Don Swan</td><td>1000</td><td>1000</td><td>Don Swan's Mansion</td><td>Quest y acceso correspondiente.</td></tr>
+<tr><td>Smoke Admiral</td><td>1150</td><td>1150</td><td>Hot and Cold</td><td>Quest del Smoke Admiral.</td></tr>
+<tr><td>Awakened Ice Admiral</td><td>1400</td><td>1400</td><td>Ice Castle</td><td>Quest del Awakened Ice Admiral.</td></tr>
+<tr><td>Tide Keeper</td><td>1475</td><td>1475</td><td>Forgotten Island</td><td>Quest del Tide Keeper.</td></tr>
+</tbody></table>
+<h3 style="margin:22px 0 10px">🌊 Tercer Mar — Bosses de misión</h3>
+<table class="data"><thead><tr><th>Boss</th><th>Nivel boss</th><th>Nivel misión</th><th>Ubicación</th><th>Requisito / acceso</th></tr></thead><tbody>
+<tr><td>Stone</td><td>1550</td><td>1550</td><td>Port Town</td><td>Quest de Stone.</td></tr>
+<tr><td>Hydra Leader</td><td>1675</td><td>1675</td><td>Hydra Island</td><td>Quest de Hydra Leader.</td></tr>
+<tr><td>Kilo Admiral</td><td>1750</td><td>1750</td><td>Great Tree</td><td>Boss con aparición periódica.</td></tr>
+<tr><td>Captain Elephant</td><td>1875</td><td>1875</td><td>Floating Turtle</td><td>Quest de Captain Elephant.</td></tr>
+<tr><td>Beautiful Pirate</td><td>1950</td><td>1950</td><td>Hydra Island</td><td>Quest de Beautiful Pirate.</td></tr>
+<tr><td>Longma</td><td>2000</td><td>2000</td><td>Floating Turtle</td><td>Quest especial y acceso a su zona.</td></tr>
+<tr><td>Cake Queen</td><td>2175</td><td>2175</td><td>Ice Cream Land</td><td>Quest de Cake Queen.</td></tr>
+</tbody></table>
+<h3 style="margin:22px 0 10px">👑 Raid Bosses y bosses especiales</h3>
+<table class="data"><thead><tr><th>Boss</th><th>Nivel</th><th>Cómo aparece</th><th>Requisitos principales</th></tr></thead><tbody>
+<tr><td>The Saw</td><td>100</td><td>Spawn periódico en Middle Town</td><td>No necesita quest.</td></tr>
+<tr><td>Greybeard</td><td>750</td><td>Spawn periódico en Marine Fortress</td><td>No necesita quest.</td></tr>
+<tr><td>Darkbeard</td><td>1000</td><td>Dark Arena</td><td>Usa el objeto de invocación correspondiente para iniciar el encuentro.</td></tr>
+<tr><td>Order</td><td>1250</td><td>Hot and Cold</td><td>Boss especial con sistema de invocación propio.</td></tr>
+<tr><td>Cursed Captain</td><td>1350</td><td>Cursed Ship</td><td>Aparece en el Cursed Ship; no funciona como quest normal.</td></tr>
+<tr><td>rip_indra</td><td>5000</td><td>Castle on the Sea</td><td>Invocación mediante God's Chalice y activación del mecanismo correspondiente.</td></tr>
+<tr><td>Cake Prince</td><td>2175</td><td>Cake Land</td><td>Derrota 500 enemigos en Cake Land y después interactúa con el NPC correspondiente.</td></tr>
+<tr><td>Dough King</td><td>2300</td><td>Dimensional Shift</td><td>Sweet Chalice + 500 enemigos derrotados en Cake Land + interacción con Drip_Mama.</td></tr>
+<tr><td>Terrorshark</td><td>2000</td><td>Mar</td><td>Encuentro marítimo especial.</td></tr>
+<tr><td>Leviathan</td><td>Especial</td><td>Mar / Frozen Dimension</td><td>Requiere que se genere la Frozen Dimension.</td></tr>
+<tr><td>Tyrant of the Skies</td><td>Especial</td><td>Tiki Outpost</td><td>Derrota 200 enemigos en Tiki Outpost y completa la mecánica de las vasijas.</td></tr>
+</tbody></table>
+<h3 style="margin:22px 0 10px">✨ Bosses despertados — evento horario</h3>
+<div class="grid">
+<div class="card"><span class="tag">PRIMER MAR</span><h3>⏰ Awakened Bosses</h3><p>Es un evento del Primer Mar. Al inicio de cada hora puede despertar un boss seleccionado. Durante los últimos minutos de la hora puedes consultar al Secrets Master para conocer el siguiente.</p></div>
+<div class="card"><span class="tag">DESBLOQUEO</span><h3>⭐ Island Secrets</h3><p>La mecánica se desbloquea mediante Island Secrets. Cada jugador debe completar el minijuego correspondiente antes de poder dañar al boss despertado.</p></div>
+<div class="card"><span class="tag">MINIJUEGOS</span><h3>🧩 Ejemplos</h3><p>Gorilla King: árbol y bananas. Chef: caldero. Yeti: cubos con Aura. Vice Admiral: cañones. Warden: palancas. Magma General: puntos de presión. Fishman Lord: perla. Sky Warlord: nubes. Lightning God: campana. Cyborg: cables.</p></div>
+</div>
+<div class="notice" style="margin-top:15px">📚 <b>Importante:</b> los bosses normales suelen estar ligados a quests con nivel; los Raid Bosses no necesitan una quest estándar y varios tienen invocaciones o temporizadores propios. Estos datos corresponden a la información disponible en 2026 y pueden cambiar.</div>
+</section>
 <section id="guias"><div class="sectionHead"><div><h2>📚 Guías rápidas</h2><p>Consejos prácticos para jugar mejor.</p></div></div><div class="grid">
 <div class="card"><h3>💰 Dinero</h3><p>Completa misiones adecuadas a tu nivel, derrota enemigos eficientemente y evita recorrer grandes distancias innecesarias.</p></div>
 <div class="card"><h3>🧱 Farm eficiente</h3><p>Elige una zona donde puedas derrotar enemigos rápidamente. Una ruta corta y consistente suele ser mejor que una zona difícil.</p></div>
@@ -71,24 +186,65 @@ footer{max-width:1250px;margin:auto;padding:0 20px 35px;color:var(--muted);font-
 </div></section>
 <section id="faq"><div class="sectionHead"><div><h2>❓ FAQ</h2></div></div><div class="grid">
 <div class="card"><h3>¿Qué es Blox Fruits?</h3><p>Es una experiencia de Roblox inspirada en aventuras de piratas y anime, donde exploras, luchas, mejoras tu personaje y consigues habilidades.</p></div>
-<div class="card"><h3>¿Cuántos mares hay?</h3><p>La estructura principal del juego se divide en Primer, Segundo y Tercer Mar.</p></div>
+<div class="card"><h3>¿Cuáles son los niveles de los mares?</h3><p>El Primer Mar cubre la progresión inicial hasta nivel 700; el Segundo Mar comienza en 700 y llega hasta 1500; el Tercer Mar comienza en 1500 y actualmente llega hasta nivel 3000, incluyendo niveles secretos.</p></div>
 <div class="card"><h3>¿Qué fruta debería usar?</h3><p>Depende del objetivo. Para empezar conviene priorizar facilidad de farmeo y movilidad antes de perseguir una build avanzada.</p></div>
 <div class="card"><h3>¿La información puede cambiar?</h3><p>Sí. Actualizaciones pueden modificar frutas, niveles, objetos, NPCs, recompensas y sistemas. Comprueba siempre los cambios recientes dentro del juego.</p></div>
-</div><div class="notice" style="margin-top:15px">⚠️ <b>Nota:</b> esta web es una guía independiente. Los datos de contenido pueden quedar desactualizados después de una actualización. La experiencia oficial aparece en Roblox bajo Gamer Robot Inc. </div></section>
+</div><div class="notice" style="margin-top:15px">⚠️ <b>Nota:</b> esta web es una guía independiente. Datos revisados el 7 de octubre de 2026 con referencia a la actualización 30. Los valores pueden cambiar con futuras actualizaciones. La experiencia oficial aparece en Roblox bajo Gamer Robot Inc.</div></section>
 </main>
-<footer><span>🍎 Blox Fruits Wiki • Guía independiente</span><span>Datos sujetos a cambios por actualizaciones.</span></footer>
+<footer><span>🍎 Blox Fruits Wiki • Guía independiente</span><span>Actualizado: 7 oct 2026 • Update 30 • Nivel máximo 3000</span></footer>
 </div>
 <script>
 const fruits=[
-['Rocket','Natural','Movilidad','Una opción sencilla para comenzar y aprender los controles.'],['Spin','Natural','Movilidad','Útil para familiarizarse con desplazamientos y ataques básicos.'],['Flame','Elemental','Farm / Daño','Buena puerta de entrada a habilidades elementales.'],['Ice','Elemental','Control','Ofrece herramientas de control y movilidad.'],['Light','Elemental','Movilidad / Farm','Destaca por movilidad y comodidad para recorrer el mapa.'],['Magma','Elemental','Daño / Farm','Potente enfoque de daño y utilidad en determinados contenidos.'],['Dark','Elemental','Control / PvP','Tiene herramientas de control y combos.'],['Buddha','Zoan','Farm / Raids','Muy asociada a builds de farmeo y supervivencia.'],['Portal','Natural','Movilidad','Excelente concepto de movilidad y desplazamiento por el mundo.'],['Rumble','Elemental','PvP / Combos','Ofrece control, movilidad y posibilidades de combo.'],['Blizzard','Elemental','Área / PvP','Habilidades de área útiles para presión y control.'],['Dough','Natural','PvP / Combos','Conjunto de habilidades orientado a combos y combate avanzado.'],['Shadow','Natural','Daño / PvP','Enfoque ofensivo con herramientas para combate.'],['Venom','Natural','Daño / Área','Potente presión y daño en zonas.'],['Spirit','Natural','Versátil','Kit complejo con varias herramientas para diferentes situaciones.'],['Dragon','Zoan','Avanzado','Fruta de alto interés para jugadores que buscan contenido avanzado.']
+['Rocket','Natural','Movilidad','Fruta básica con ataques sencillos y buen movimiento para comenzar.'],
+['Spin','Natural','Movilidad','Fruta sencilla centrada en giros, desplazamiento y ataques de corto alcance.'],
+['Blade','Natural','Daño / Movilidad','Fruta básica orientada al daño y a ataques rápidos.'],
+['Spring','Natural','Movilidad','Destaca por sus saltos y desplazamientos, útil para moverse por el mapa.'],
+['Bomb','Natural','Área / Daño','Sus explosiones permiten golpear zonas y varios enemigos.'],
+['Smoke','Elemental','Farm / Movilidad','Fruta elemental económica con movilidad aérea y ataques de área.'],
+['Spike','Natural','Daño / Área','Utiliza ataques de púas para presionar a enemigos cercanos.'],
+['Flame','Elemental','Farm / Daño','Fruta elemental con ataques de fuego, movilidad y buen daño.'],
+['Ice','Elemental','Control / Movilidad','Ofrece control mediante congelación y una movilidad muy útil.'],
+['Sand','Elemental','Área / PvP','Combina ataques de arena, área y control para combate.'],
+['Dark','Elemental','Control / PvP','Tiene habilidades de control y buenas posibilidades para combos.'],
+['Eagle','Beast','Movilidad / PvP','Fruta enfocada en movilidad aérea y ataques rápidos.'],
+['Diamond','Natural','Defensa','Destaca por resistencia y una forma de juego orientada a aguantar daño.'],
+['Light','Elemental','Movilidad / Farm','Una de las opciones más cómodas para recorrer el mapa y farmear.'],
+['Rubber','Natural','PvP / Combos','Fruta con ataques elásticos y herramientas interesantes para combate.'],
+['Ghost','Natural','Versátil','Kit versátil con habilidades ofensivas y utilidades especiales.'],
+['Magma','Elemental','Daño / Farm','Gran daño de área y excelente utilidad para farmear y contenido marítimo.'],
+['Quake','Natural','Área / PvP','Ataques de gran alcance y ondas sísmicas para controlar zonas.'],
+['Buddha','Beast','Farm / Raids','Transformación de gran tamaño muy utilizada para farmeo, raids y supervivencia.'],
+['Love','Natural','Control / Apoyo','Combina control, efectos de apoyo y herramientas para combatir en equipo.'],
+['Creation','Natural','Área / Control','Fruta orientada a crear ataques y controlar espacios durante el combate.'],
+['Spider','Natural','PvP / Control','Cuenta con ataques de telaraña, movilidad y opciones para combos.'],
+['Sound','Elemental','Área / PvP','Usa ondas y efectos musicales para daño, defensa y control.'],
+['Phoenix','Beast','Curación / Movilidad','Fruta con habilidades de vuelo, apoyo y recuperación.'],
+['Portal','Natural','Movilidad','Una de las frutas más útiles para desplazarse rápidamente entre zonas.'],
+['Rumble','Elemental','PvP / Combos','Fruta eléctrica con movilidad, control y muchas posibilidades de combo.'],
+['Pain','Natural','PvP / Daño','Kit orientado al combate avanzado, presión y ataques de largo alcance.'],
+['Blizzard','Elemental','Área / PvP','Gran control de zona mediante tormentas y ataques de hielo.'],
+['Gravity','Natural','Área / Control','Manipula la gravedad para generar ataques amplios y presión.'],
+['Mammoth','Beast','Transformación / Daño','Permite una transformación poderosa y ataques de gran área.'],
+['T-Rex','Beast','Transformación / PvP','Transformación centrada en daño, movilidad y ataques de gran alcance.'],
+['Dough','Elemental','PvP / Combos','Kit muy orientado a combos, movilidad y combate avanzado.'],
+['Shadow','Natural','Daño / PvP','Fruta ofensiva con sombras, movilidad y herramientas para presionar.'],
+['Venom','Natural','Daño / Área','Produce ataques venenosos y una transformación con enorme presión de zona.'],
+['Control','Natural','PvP / Control','Crea un área de control donde sus habilidades permiten manipular el combate.'],
+['Gas','Natural','Área / Transformación','Fruta centrada en gases, control de zona y transformación.'],
+['Spirit','Natural','Versátil / PvP','Kit complejo que utiliza entidades espirituales y ofrece muchas opciones de combate.'],
+['Tiger','Beast','Transformación / PvP','Fruta de transformación orientada a movilidad, daño y combate avanzado.'],
+['Yeti','Beast','Transformación / Daño','Forma bestial con ataques de gran fuerza y presencia en combate.'],
+['Magnet','Natural','Control / Área','Utiliza magnetismo para atraer, controlar y atacar objetivos.'],
+['Kitsune','Beast','Transformación / Movilidad','Fruta de alto nivel con transformación, movilidad y habilidades especiales.'],
+['Dragon','Beast','Transformación / Daño','Fruta de máximo nivel centrada en transformación, daño y ataques de gran escala.']
 ];
 const bosses=[['Bosses de misión','Enemigos vinculados a quests y progresión.'],['Bosses de eventos','Encuentros especiales que pueden aparecer durante actividades o eventos.'],['Bosses marinos','Enemigos del océano y contenido de exploración naval.'],['Bosses de raids','Encuentros relacionados con contenido cooperativo y mejoras.'],['Bosses secretos','Objetivos ocultos o de acceso especial; revisa requisitos antes de intentarlo.']];
 let current='Todos';
 function renderFruits(){const q=document.getElementById('search').value.toLowerCase();const grid=document.getElementById('fruitGrid');const list=fruits.filter(f=>(current==='Todos'||f[1]===current)&&(f.join(' ').toLowerCase().includes(q)));grid.innerHTML=list.length?list.map(f=>`<div class="card"><span class="tag">${f[1]} • ${f[2]}</span><h3>🍎 ${f[0]}</h3><p>${f[3]}</p></div>`).join(''):`<div class="empty">No se encontraron frutas con esa búsqueda.</div>`}
-function renderTabs(){const types=['Todos','Natural','Elemental','Zoan'];document.getElementById('fruitTabs').innerHTML=types.map(t=>`<button class="tab ${t===current?'active':''}" onclick="current='${t}';renderTabs();renderFruits()">${t}</button>`).join('')}
+function renderTabs(){const types=['Todos','Natural','Elemental','Beast'];document.getElementById('fruitTabs').innerHTML=types.map(t=>`<button class="tab ${t===current?'active':''}" onclick="current='${t}';renderTabs();renderFruits()">${t}</button>`).join('')}
 function doSearch(){renderFruits();document.getElementById('frutas').scrollIntoView({behavior:'smooth'})}
 document.getElementById('search').addEventListener('input',renderFruits);
 document.getElementById('search').addEventListener('keydown',e=>{if(e.key==='Enter')doSearch()});
-document.getElementById('bossGrid').innerHTML=bosses.map(b=>`<div class="card"><span class="tag">CHECKLIST</span><h3>👹 ${b[0]}</h3><p>${b[1]}</p></div>`).join('');renderTabs();renderFruits();
+renderTabs();renderFruits();
 </script>
 </body></html>
